@@ -16,6 +16,7 @@
 		691D7D7522EF64AD00B2219A /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691D7D7422EF64AD00B2219A /* AddEditTableViewController.swift */; };
 		691D7D7822EF672900B2219A /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691D7D7722EF672900B2219A /* CellManager.swift */; };
 		691D7D7C22EF6FCF00B2219A /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691D7D7B22EF6FCF00B2219A /* EmojiCell.swift */; };
+		69D910C622F564990032DAAC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D910C522F564990032DAAC /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		691D7D7422EF64AD00B2219A /* AddEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
 		691D7D7722EF672900B2219A /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
 		691D7D7B22EF6FCF00B2219A /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
+		69D910C522F564990032DAAC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 		691D7D5922EF604000B2219A /* Table Views */ = {
 			isa = PBXGroup;
 			children = (
-				691D7D7622EF670900B2219A /* Manager */,
+				691D7D7622EF670900B2219A /* Managers */,
 				691D7D6C22EF60F200B2219A /* Model */,
 				691D7D7122EF643800B2219A /* Supporting Files */,
 				691D7D6F22EF63F200B2219A /* View Controllers */,
@@ -108,12 +110,13 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		691D7D7622EF670900B2219A /* Manager */ = {
+		691D7D7622EF670900B2219A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				691D7D7722EF672900B2219A /* CellManager.swift */,
+				69D910C522F564990032DAAC /* DataManager.swift */,
 			);
-			path = Manager;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		691D7D7922EF6F7500B2219A /* Storyboards */ = {
@@ -207,6 +210,7 @@
 				691D7D7C22EF6FCF00B2219A /* EmojiCell.swift in Sources */,
 				691D7D6E22EF610A00B2219A /* Emoji.swift in Sources */,
 				691D7D7322EF648800B2219A /* EmojiTableViewController.swift in Sources */,
+				69D910C622F564990032DAAC /* DataManager.swift in Sources */,
 				691D7D7522EF64AD00B2219A /* AddEditTableViewController.swift in Sources */,
 				691D7D5B22EF604000B2219A /* AppDelegate.swift in Sources */,
 				691D7D7822EF672900B2219A /* CellManager.swift in Sources */,

@@ -6,7 +6,7 @@
 //  Copyright © 2019 Denis Bystruev. All rights reserved.
 //
 
-struct Emoji {
+struct Emoji: Codable {
      var symbol: String
      var name: String
      var description: String
@@ -28,10 +28,6 @@ extension Emoji {
                Emoji(symbol: "✅", name: "Галочка", description: "Галочка на зелёном фоне", usage: "Дела сделаны"),
                Emoji(symbol: "⛔️", name: "Стоп", description: "Знак «Стоп»", usage: "Проезд запрещён"),
           ]
-     }
-     
-     static func loadAll() -> [Emoji]? {
-          return nil
      }
      
      static func loadDefaults() -> [Emoji] {
